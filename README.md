@@ -25,13 +25,13 @@
 ## or
 
 ```console
-    $ roslaunch robot_description gazebo.launch 
+     roslaunch robot_description gazebo.launch 
 ```
 
 ## then
 
 ```console
-    $ roslaunch robot_description navigation.launch 
+     roslaunch robot_description navigation.launch 
 ```
 ##kinect navigation result 
 ## as shown in image, the robot navigation and localization is ok  >>> but cannot update the global path according to changes in the envronment.
@@ -47,27 +47,27 @@
 ## from launch folder run
 
 ```console
-    $ chmod +x ./turtlebot.sh
+     chmod +x ./turtlebot.sh
 ```
 ```console
-    $ ./turtlebot.sh 
+     ./turtlebot.sh 
 ```
 
 ## or
 
 ```console
-    $ roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=$(rospack find robot_description)/worlds/Office.world
+     roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=$(rospack find robot_description)/worlds/Office.world
 ```
 
 ## then
 
 ```console
-    $ roslaunch turtlebot_gazebo amcl_demo.launch map_file:=$(rospack find robot_description)/maps/map.yaml
+     roslaunch turtlebot_gazebo amcl_demo.launch map_file:=$(rospack find robot_description)/maps/map.yaml
 ```
 
 
 ```console
-    $ roslaunch turtlebot_rviz_launchers view_navigation.launch
+     roslaunch turtlebot_rviz_launchers view_navigation.launch
 ```
 
 ![Homepage Image](turtlebot.png)
