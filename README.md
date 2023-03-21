@@ -1,5 +1,5 @@
 # kinect_robot navigation test using kinect camera  compered to turtlebot 2 navigation
-# I used the same navigation parameters for turtlebot 2 and this lead to good localization and navigation result
+# I used the same navigation parameters for turtlebot 2 and this leads to good localization and navigation result
 # But the robot can't detect any change happens in the environment, the laser detect it but the navigation stack dosn't change the global path to avoid collision
 #compared to the turtlebot 2 which can handle any change the environment in most cases even in case multiple changes around
 
