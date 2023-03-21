@@ -16,10 +16,10 @@
 ## from launch folder run
 
 ```console
-    $ chmod +x ./robot.sh
+     chmod +x ./robot.sh
 ```
 ```console
-    $ ./robot.sh 
+     ./robot.sh 
 ```
 
 ## or
