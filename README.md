@@ -1,3 +1,6 @@
+## After reading please check this question at ros community
+https://answers.ros.org/question/413606/navigation-using-custom-robot-with-kinect-cannot-avoid-dynamic-obstacles-objects-added-to-environment/
+
 # kinect_robot navigation test using kinect camera  compered to turtlebot 2 navigation
 # I used the same navigation parameters for turtlebot 2 and this leads to good localization and navigation result
 # But the robot can't detect any change happens in the environment, the laser detect it but the navigation stack dosn't change the global path to avoid collision
